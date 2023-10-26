@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react';
-import '../Style/Style.css';
+import '../style.css';
 
 export default function Colordots() {
   const [colorArr, setColorArr] = useState([]);
