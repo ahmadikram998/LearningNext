@@ -1,8 +1,7 @@
-import Image from 'next/image'
-import Arraylist from './components/Arraylist'
+import Colordots from './components/Colordots'
 
 export default function Home() {
   return (
-    <Arraylist />
+    <Colordots />
   )
 }
