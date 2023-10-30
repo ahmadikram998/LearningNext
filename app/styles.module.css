@@ -1,0 +1,73 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    gap: 5px;
+}
+
+.form {
+    display: flex;
+    gap: 5px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputText {
+    padding: 5px;
+    width: 400px;
+    border: 1px solid gray;
+}
+
+.btn {
+    border: none;
+    padding: 3px 10px;
+    font-size: 20px;
+    height: fit-content;
+    min-width: 100px;
+    background-color: gray;
+    color: white;
+}
+
+.btnDanger {
+    background-color: red;
+    color: white;
+}
+
+.btnSuccess {
+    background-color: green;
+    color: white;
+}
+
+
+.list {
+    width: 100%;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.tableHeader {
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.tableRow {
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.tableTh {
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.tableTd {
+    border: 1px solid gray;
+}

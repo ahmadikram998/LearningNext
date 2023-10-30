@@ -13,6 +13,7 @@ button{
       height: -moz-fit-content;
       height: fit-content;
       min-width: 120px;
+      color: white;
   }
   
   .green{
@@ -24,6 +25,7 @@ button{
   }
   
   .yellow{
+    color:black ;
     background-color: yellow;
   }
   

@@ -1,7 +1,7 @@
-import Colordots from './components/Colordots'
+import IndexJ from './components/Index'
 
 export default function Home() {
   return (
-    <Colordots />
+    <IndexJ />
   )
 }
