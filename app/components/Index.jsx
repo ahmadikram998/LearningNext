@@ -14,7 +14,7 @@ const TodoApp = () => {
 
   const handleAddTask = () => {
     if(selectedRecord !== null){
-        setTasks(tasks.map((task,index) => {
+        setTasks(tasks.map((task) => {
             if(task.id === selectedRecord.id){
                 return {...task , title : taskInput}
             }
