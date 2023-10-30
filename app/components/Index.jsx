@@ -14,7 +14,7 @@ const TodoApp = () => {
 
   const handleAddTask = () => {
     if(selectedRecord !== null){
-        setTasks(tasks.map((task) => {
+        setTasks(tasks.map((task,index) => {
             if(task.id === selectedRecord.id){
                 return {...task , title : taskInput}
             }
@@ -52,7 +52,7 @@ const TodoApp = () => {
             />
           </div>
           <div className={styles.formItem}>
-            <button className={styles.btn} onClick={handleAddTask}>Add</button>
+            <button className={styles.btn} onClick={handleAddTask}>{selectedRecord ? 'Update' : 'Add'}</button>
           </div>
         </div>
         <div className={styles.list}>
@@ -67,7 +67,7 @@ const TodoApp = () => {
             <tbody>
               {tasks.map((el, index) => {
                 return (
-                  <tr>
+                  <tr key={index}>
                     <td className={styles.tableTd}>{index + 1}</td>
                     <td className={styles.tableTd}>{el.title}</td>
                     <td className={styles.tableTd}>
